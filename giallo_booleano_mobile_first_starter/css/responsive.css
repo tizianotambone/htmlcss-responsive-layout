@@ -13,10 +13,10 @@
 	font-size: 20px;
 }
 .quick-notes ul{
-	display: flex;
-}
-.quick-notes li {
-	padding: 5px;
+	display: flex;}
+	
+.quick-notes .li {
+	padding: 15px;
 }
 .social-network .btn{
 	font-size: 40px;
@@ -30,13 +30,17 @@
 }
 .social-network .btn{
 	font-size: 40px;
+	
 
+}
+.btn{
+	width: 150px;
 }
 .ads{
 	display: block;
 }
 .recipe-origin{
-	display: block;
+	display: inline-block;
 	font-size: 40px;
 }
 }
@@ -49,11 +53,11 @@
 		 flex-direction: column;
 		}
 	.social-network .label{
-		display: inline;
+		display: inline-block;
 		font-size: 50px;
 	}
 	.recipe-origin{
-		display: block;
+		display: inline-block;
 		font-size: 40px;
 	}
 	.social-network.btn{
@@ -64,6 +68,10 @@
 		display: flex;
 		justify-content: space-between;
 	}
-}
+	.recipe-card{
+		display: flex;
+	}
+	
+} 
 
 
