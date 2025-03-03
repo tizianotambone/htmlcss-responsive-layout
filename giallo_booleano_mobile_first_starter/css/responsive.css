@@ -1,12 +1,38 @@
 /* Soluzione qui */
-@media  screen and(min-width:768px) {
+@media only screen and (min-width:768px) {
     
-    #topbar{
-        height: 70px;
-	padding: 0 20px;
-	background-color: #fff;
-
-	display: flex;
-	align-items: center;
-    }
+#topbar{ 
+	justify-content: flex-start;
 }
+		
+      
+.container{ 
+	padding: 40px;
+}
+.recipttitle{
+	font-size: 20px;
+}
+.quick-notes ul{
+	display: flex;
+}
+.quick-notes li {
+	padding: 5px;
+}
+.social-network .btn{
+	font-size: 40px;
+}
+.ads{
+	display: inline;
+}
+}
+
+@media screen and(min-width:992px) {
+	.recipttitle{
+		font-size: 40px;
+	}
+	.quick-notes ul{
+		flex-direction: column;
+	}
+}
+
+
