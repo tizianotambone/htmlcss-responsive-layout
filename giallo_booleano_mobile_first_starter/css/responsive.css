@@ -35,6 +35,10 @@
 .ads{
 	display: block;
 }
+.recipe-origin{
+	display: block;
+	font-size: 40px;
+}
 }
 
 @media screen and (min-width:992px) {
@@ -44,7 +48,22 @@
 	.quick-notes ul{
 		 flex-direction: column;
 		}
-		
+	.social-network .label{
+		display: inline;
+		font-size: 50px;
+	}
+	.recipe-origin{
+		display: block;
+		font-size: 40px;
+	}
+	.social-network.btn{
+		display: block;
+		font-size: 20px;
+	}
+	footer{
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 
