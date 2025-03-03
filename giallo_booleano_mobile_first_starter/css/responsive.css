@@ -52,9 +52,9 @@
 	.quick-notes ul{
 		 flex-direction: column;
 		}
-	.social-network .label{
+	.btn .label{
 		display: inline-block;
-		font-size: 50px;
+		
 	}
 	.recipe-origin{
 		display: inline-block;
@@ -70,6 +70,9 @@
 	}
 	.recipe-card{
 		display: flex;
+	}
+	.well{
+		display: inline;
 	}
 	
 } 
