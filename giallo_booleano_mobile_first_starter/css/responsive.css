@@ -24,15 +24,27 @@
 .ads{
 	display: inline;
 }
+.clearfix img{
+	float: left;
+	padding: 10px;
+}
+.social-network .btn{
+	font-size: 40px;
+
+}
+.ads{
+	display: block;
+}
 }
 
-@media screen and(min-width:992px) {
-	.recipttitle{
+@media screen and (min-width:992px) {
+	.recipe-title{
 		font-size: 40px;
 	}
 	.quick-notes ul{
-		flex-direction: column;
-	}
+		 flex-direction: column;
+		}
+		
 }
 
 
